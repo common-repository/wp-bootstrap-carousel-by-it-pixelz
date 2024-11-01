@@ -1,0 +1,45 @@
+.wpbc_carousel .carousel-control.right, .wpbc_carousel .carousel-control.left {
+    background-image: none !important;
+	
+}
+
+.wpbc_carousel .carousel-control.right span{
+    background-image: url(../images/arrow-right-1.png) !important;
+	background-size: cover;
+	width:40px;
+	height:40px;
+	    background-color: rgba(255, 255, 255, 0.74);
+		    right: 15px;
+}
+.wpbc_carousel .carousel-control.left span{
+    background-image: url(../images/arrow-left-1.png) !important;
+	background-size: cover;
+	width:40px;
+	height:40px;
+	    background-color: rgba(255, 255, 255, 0.74);
+		    left: 15px;
+}
+
+.wpbc_carousel .carousel-control.left:hover span, .wpbc_carousel .carousel-control.right:hover span {
+     
+	    background-color: white;
+		    
+}
+
+
+.wpbc_carousel .glyphicon-chevron-right:before {
+    content: none;
+}
+.wpbc_carousel .glyphicon-chevron-left:before {
+    content: none !important;
+}
+
+.wpbc_carousel .item img{
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+
+
+
